@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Map Placing Game</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    
+  </head>
+  <body>
+    <div id="main">
+      <div class="col-6">
+        <span><h3>MAP Potaote Game</h3></span>
+        <div id="map">
+          <div class="grid" id="grid"></div>
+        </div>
+      </div>
+
+      <div id="details" class="col-6">
+        <div class="score"></div>
+        <div>
+          <span
+            ><h3 class = "season">Current Season: <span class="seasonText" ></span></h3>
+          </span>
+          <hr />
+        </div>
+        <div class="missions"></div>
+
+        <h3 class="time">
+          Elapsed Time in Curent Season:
+          <span class="ELementNumber">0</span>
+        </h3>
+
+        <hr />
+        <div class="nextElement"></div>
+      </div>
+    </div>
+
+    <div class="hidden hdDiv"><button class="reset">Reset</button></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
